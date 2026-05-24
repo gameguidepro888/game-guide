@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>氪金攻略站 - 全球玩家首选氪金省钱指南 | GameGuide Pro</title>
+  <meta name="description" content="覆盖王者荣耀、和平精英、原神等6大热门游戏的氪金性价比分析平台。礼包评测、充值方案、避坑指南，让每一分钱都花在刀刃上。">
+  <meta name="keywords" content="氪金攻略,游戏攻略,氪金省钱,礼包性价比,王者荣耀皮肤,原神抽卡,DNF手游,和平精英军需,Last War,Fortnite">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://gameguide.pro/">
+  <link rel="alternate" hreflang="zh" href="https://gameguide.pro/">
+  <link rel="alternate" hreflang="en" href="https://gameguide.pro/en/">
+  <meta property="og:title" content="氪金攻略站 | GameGuide Pro - 全球玩家首选氪金省钱指南">
+  <meta property="og:description" content="覆盖6大热门游戏的氪金性价比分析平台。礼包评测、充值方案、避坑指南。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gameguide.pro/">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== Header / Navigation ===== -->
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-icon">G</span>
+      <span data-i18n="siteName">氪金攻略站</span>
+    </a>
+
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+      <!-- Home -->
+      <a href="index.html" class="nav-link active" data-i18n="nav_home">首页</a>
+
+      <!-- Game Guides Dropdown -->
+      <div class="nav-item">
+        <a href="#" class="nav-link" data-i18n="nav_guides">游戏攻略专区 <span class="arrow">&#9660;</span></a>
+        <div class="dropdown">
+          <span class="dropdown-label" data-i18n="sub_cn_games">国内游戏</span>
+          <a href="games/honor-of-kings.html" class="dropdown-item" data-i18n="game_hok">王者荣耀</a>
+          <a href="games/pubg-mobile.html" class="dropdown-item" data-i18n="game_pubg">和平精英</a>
+          <a href="games/dnf-mobile.html" class="dropdown-item" data-i18n="game_dnf">DNF手游</a>
+          <span class="dropdown-label" data-i18n="sub_global_games">Global Games</span>
+          <a href="games/genshin-impact.html" class="dropdown-item" data-i18n="game_genshin">原神</a>
+          <a href="games/last-war.html" class="dropdown-item" data-i18n="game_lastwar">Last War</a>
+          <a href="games/fortnite.html" class="dropdown-item" data-i18n="game_fortnite">堡垒之夜</a>
+        </div>
+      </div>
+
+      <!-- Spending Guide Dropdown -->
+      <div class="nav-item">
+        <a href="pages/spending-guide.html" class="nav-link" data-i18n="nav_spending">氪金性价比 <span class="arrow">&#9660;</span></a>
+        <div class="dropdown">
+          <a href="pages/spending-guide.html#rankings" class="dropdown-item" data-i18n="sub_spending_rank">礼包性价比排行</a>
+          <a href="pages/spending-guide.html#pitfalls" class="dropdown-item" data-i18n="sub_spending_avoid">充值避坑指南</a>
+          <a href="pages/spending-guide.html#min-spend" class="dropdown-item" data-i18n="sub_spending_min">最低氪金方案</a>
+          <a href="pages/spending-guide.html#value-retention" class="dropdown-item" data-i18n="sub_spending_value">皮肤/道具保值率</a>
+        </div>
+      </div>
+
+      <!-- Premium Dropdown -->
+      <div class="nav-item">
+        <a href="pages/premium.html" class="nav-link" data-i18n="nav_premium">付费资源 <span class="arrow">&#9660;</span></a>
+        <div class="dropdown">
+          <a href="pages/premium.html#single" class="dropdown-item" data-i18n="sub_premium_single">单篇付费攻略</a>
+          <a href="pages/premium.html#toolkit" class="dropdown-item" data-i18n="sub_premium_toolkit">专属工具包</a>
+          <a href="pages/premium.html#calculator" class="dropdown-item" data-i18n="sub_premium_calc">氪金计算器</a>
+          <a href="pages/premium.html#handbook" class="dropdown-item" data-i18n="sub_premium_handbook">版本毕业手册</a>
+        </div>
+      </div>
+
+      <!-- Membership -->
+      <a href="pages/membership.html" class="nav-link" data-i18n="nav_membership">会员中心</a>
+
+      <!-- News -->
+      <a href="pages/news.html" class="nav-link" data-i18n="nav_news">最新资讯</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="lang-switch" data-lang-switch aria-label="Switch language">
+        <span class="globe">&#127760;</span> EN
+      </button>
+      <button class="search-trigger" aria-label="Search">
+        &#128269;
+      </button>
+      <a href="pages/membership.html" class="btn btn-primary btn-sm" data-i18n="btn_join">加入会员</a>
+      <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    </div>
+  </div>
+</header>
+
+<!-- Search Overlay -->
+<div class="search-overlay">
+  <div class="search-box">
+    <span>&#128269;</span>
+    <input type="text" data-i18n="search" placeholder="搜索攻略...">
+    <button class="search-close">ESC</button>
+  </div>
+</div>
+
+<!-- ===== Hero Banner ===== -->
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-content">
+      <h1><span class="text-gradient" data-i18n="hero_title">氪金不踩坑，省钱更聪明</span></h1>
+      <p data-i18n="hero_subtitle">覆盖6大热门游戏的氪金性价比分析平台。礼包评测、充值方案、避坑指南，让每一分钱都花在刀刃上。</p>
+      <div class="hero-buttons">
+        <a href="#game-zones" class="btn btn-primary btn-lg" data-i18n="hero_btn_guides">查看攻略</a>
+        <a href="pages/membership.html" class="btn btn-outline btn-lg" data-i18n="hero_btn_member">加入会员</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-num">200+</div>
+          <div class="hero-stat-label" data-i18n="hero_stat_articles">精品攻略</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">6</div>
+          <div class="hero-stat-label" data-i18n="hero_stat_games">覆盖游戏</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">50K+</div>
+          <div class="hero-stat-label" data-i18n="hero_stat_users">服务玩家</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="hero-image-placeholder">&#127918;</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== News Ticker ===== -->
+<div class="container" style="margin-top: -20px; position: relative; z-index: 2;">
+  <div class="news-ticker">
+    <span class="news-ticker-label"><span class="lang-zh">最新</span><span class="lang-en">LATEST</span></span>
+    <div class="news-ticker-content">
+      <span class="news-ticker-item"><a href="pages/news.html"><span class="lang-zh">2026年5月版本更新：王者荣耀新赛季氪金攻略已更新 &rarr;</span><span class="lang-en">May 2026 Version Update: Honor of Kings New Season Spending Guide Updated &rarr;</span></a></span>
+    </div>
+  </div>
+</div>
+
+<!-- ===== Game Zones ===== -->
+<section class="section" id="game-zones">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="section_games">游戏专区</h2>
+      <a href="#game-zones" class="section-link" data-i18n="section_games_sub">选择你的游戏，获取专属攻略</a>
+    </div>
+    <div class="games-grid">
+      <!-- Honor of Kings -->
+      <a href="games/honor-of-kings.html" class="game-card">
+        <span class="game-card-icon">&#9876;</span>
+        <span class="game-card-name" data-i18n="game_hok">王者荣耀</span>
+        <span class="game-card-tag"><span class="lang-zh">MOBA</span><span class="lang-en">MOBA</span></span>
+      </a>
+      <!-- PUBG Mobile -->
+      <a href="games/pubg-mobile.html" class="game-card">
+        <span class="game-card-icon">&#128299;</span>
+        <span class="game-card-name" data-i18n="game_pubg">和平精英</span>
+        <span class="game-card-tag"><span class="lang-zh">FPS</span><span class="lang-en">FPS</span></span>
+      </a>
+      <!-- DNF Mobile -->
+      <a href="games/dnf-mobile.html" class="game-card">
+        <span class="game-card-icon">&#128481;</span>
+        <span class="game-card-name" data-i18n="game_dnf">DNF手游</span>
+        <span class="game-card-tag"><span class="lang-zh">ARPG</span><span class="lang-en">ARPG</span></span>
+      </a>
+      <!-- Genshin Impact -->
+      <a href="games/genshin-impact.html" class="game-card">
+        <span class="game-card-icon">&#127756;</span>
+        <span class="game-card-name" data-i18n="game_genshin">原神</span>
+        <span class="game-card-tag"><span class="lang-zh">RPG</span><span class="lang-en">RPG</span></span>
+      </a>
+      <!-- Last War -->
+      <a href="games/last-war.html" class="game-card">
+        <span class="game-card-icon">&#128737;</span>
+        <span class="game-card-name" data-i18n="game_lastwar">Last War</span>
+        <span class="game-card-tag"><span class="lang-zh">SLG</span><span class="lang-en">SLG</span></span>
+      </a>
+      <!-- Fortnite -->
+      <a href="games/fortnite.html" class="game-card">
+        <span class="game-card-icon">&#127968;</span>
+        <span class="game-card-name" data-i18n="game_fortnite">堡垒之夜</span>
+        <span class="game-card-tag"><span class="lang-zh">大逃杀</span><span class="lang-en">Battle Royale</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Ad Placeholder 1 ===== -->
+<div class="container"><div class="ad-placeholder"><span class="lang-zh">&#128240; 广告位 — 支持Google AdSense / 百度联盟 (728×90)</span><span class="lang-en">&#128240; Ad Space — Google AdSense / Baidu Union Supported (728×90)</span></div></div>
+
+<!-- ===== Hot Free Guides ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="section_free_hot">热门免费攻略</h2>
+      <a href="articles/hok/1-spending-guide.html" class="section-link" data-i18n="section_free_all">更多免费攻略 →</a>
+    </div>
+    <div class="content-grid">
+      <!-- Article 1 -->
+      <article class="content-card">
+        <div class="card-thumb"><span>&#128142;</span><span class="badge badge-new"><span class="lang-zh">新</span><span class="lang-en">NEW</span></span></div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag"><span class="lang-zh">王者荣耀</span><span class="lang-en">Honor of Kings</span></span><span class="card-tag"><span class="lang-zh">新手攻略</span><span class="lang-en">Beginner Guide</span></span></div>
+          <h3 class="card-title"><a href="articles/hok/5-vip-plan.html"><span class="lang-zh">2026王者荣耀氪金最省钱攻略｜V1-V10充值性价比明细</span><span class="lang-en">2026 Honor of Kings Most Cost-Effective Spending Guide | V1-V10 Top-Up Value Breakdown</span></a></h3>
+          <div class="card-meta"><span>&#128197; 2026-05-20</span><span><span class="lang-zh">&#128065; 12.8K 阅读</span><span class="lang-en">&#128065; 12.8K views</span></span></div>
+        </div>
+      </article>
+      <!-- Article 2 -->
+      <article class="content-card">
+        <div class="card-thumb"><span>&#127776;</span></div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag"><span class="lang-zh">原神</span><span class="lang-en">Genshin Impact</span></span><span class="card-tag"><span class="lang-zh">抽卡攻略</span><span class="lang-en">Draw Guide</span></span></div>
+          <h3 class="card-title"><a href="articles/genshin/3-character-draw.html"><span class="lang-zh">原神角色抽取指南｜2026必抽与跳过的角色</span><span class="lang-en">Genshin Impact Character Draw Guide | Must Pull & Skip in 2026</span></a></h3>
+          <div class="card-meta"><span>&#128197; 2026-05-18</span><span><span class="lang-zh">&#128065; 9.5K 阅读</span><span class="lang-en">&#128065; 9.5K views</span></span></div>
+        </div>
+      </article>
+      <!-- Article 3 -->
+      <article class="content-card">
+        <div class="card-thumb"><span>&#128176;</span></div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag"><span class="lang-zh">和平精英</span><span class="lang-en">PUBG Mobile</span></span><span class="card-tag"><span class="lang-zh">军需攻略</span><span class="lang-en">Lucky Draw Guide</span></span></div>
+          <h3 class="card-title"><a href="articles/pubg/2-lucky-draw.html"><span class="lang-zh">2026和平精英幸运抽奖概率解析｜最低成本拿下全套皮肤技巧</span><span class="lang-en">2026 PUBG Mobile Lucky Draw Probability Analysis | Tips to Get Full Skin Set at Lowest Cost</span></a></h3>
+          <div class="card-meta"><span>&#128197; 2026-05-15</span><span><span class="lang-zh">&#128065; 18.2K 阅读</span><span class="lang-en">&#128065; 18.2K views</span></span></div>
+        </div>
+      </article>
+      <!-- Article 4 -->
+      <article class="content-card">
+        <div class="card-thumb"><span>&#128737;</span></div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag"><span class="lang-zh">Last War</span><span class="lang-en">Last War</span></span><span class="card-tag"><span class="lang-zh">氪金攻略</span><span class="lang-en">Spending Guide</span></span></div>
+          <h3 class="card-title"><a href="articles/lastwar/4-troop-draw.html"><span class="lang-zh">Last War英雄招募策略｜2026高概率稀有单位获取指南</span><span class="lang-en">Last War Hero Recruitment Strategy | High Rate Rare Units 2026</span></a></h3>
+          <div class="card-meta"><span>&#128197; 2026-05-12</span><span><span class="lang-zh">&#128065; 7.3K 阅读</span><span class="lang-en">&#128065; 7.3K views</span></span></div>
+        </div>
+      </article>
+      <!-- Article 5 -->
+      <article class="content-card">
+        <div class="card-thumb"><span>&#128481;</span></div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag"><span class="lang-zh">DNF手游</span><span class="lang-en">DNF Mobile</span></span><span class="card-tag"><span class="lang-zh">天空套</span><span class="lang-en">Rare Avatar Set</span></span></div>
+          <h3 class="card-title"><a href="articles/dnf/1-spending-guide.html"><span class="lang-zh">DNF手游2026氪金攻略｜新手零坑充值、礼包购买优先级</span><span class="lang-en">DNF Mobile 2026 Spending Guide | Beginner's Zero-Trap Top-Up & Pack Purchase Priority</span></a></h3>
+          <div class="card-meta"><span>&#128197; 2026-05-10</span><span><span class="lang-zh">&#128065; 22.1K 阅读</span><span class="lang-en">&#128065; 22.1K views</span></span></div>
+        </div>
+      </article>
+      <!-- Article 6 -->
+      <article class="content-card">
+        <div class="card-thumb"><span>&#127968;</span></div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag"><span class="lang-zh">堡垒之夜</span><span class="lang-en">Fortnite</span></span><span class="card-tag"><span class="lang-zh">战令</span><span class="lang-en">Battle Pass</span></span></div>
+          <h3 class="card-title"><a href="articles/fortnite/2-battle-pass.html"><span class="lang-zh">堡垒之夜2026战令指南｜完整奖励与价值分析</span><span class="lang-en">Fortnite Battle Pass 2026 Guide | Complete Rewards & Value Analysis</span></a></h3>
+          <div class="card-meta"><span>&#128197; 2026-05-08</span><span><span class="lang-zh">&#128065; 6.1K 阅读</span><span class="lang-en">&#128065; 6.1K views</span></span></div>
+        </div>
+      </article>
+      <!-- Article 7 -->
+      <article class="content-card">
+        <div class="card-thumb"><span>&#128293;</span><span class="badge badge-hot"><span class="lang-zh">热</span><span class="lang-en">HOT</span></span></div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag"><span class="lang-zh">综合</span><span class="lang-en">General</span></span><span class="card-tag"><span class="lang-zh">避坑指南</span><span class="lang-en">Pitfall Guide</span></span></div>
+          <h3 class="card-title"><a href="articles/hok/1-spending-guide.html"><span class="lang-zh">2026新手最容易踩的10个氪金陷阱：全游戏通用避坑大全</span><span class="lang-en">Top 10 Spending Traps for Beginners in 2026: Universal Pitfall Avoidance Guide</span></a></h3>
+          <div class="card-meta"><span>&#128197; 2026-05-05</span><span><span class="lang-zh">&#128065; 35.6K 阅读</span><span class="lang-en">&#128065; 35.6K views</span></span></div>
+        </div>
+      </article>
+      <!-- Article 8 -->
+      <article class="content-card">
+        <div class="card-thumb"><span>&#127756;</span></div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag"><span class="lang-zh">原神</span><span class="lang-en">Genshin Impact</span></span><span class="card-tag"><span class="lang-zh">氪金方案</span><span class="lang-en">Spending Plan</span></span></div>
+          <h3 class="card-title"><a href="articles/genshin/2-pass-comparison.html"><span class="lang-zh">2026原神月卡党养成全攻略：Welkin Moon最优利用方案</span><span class="lang-en">2026 Genshin Impact Monthly Pass Guide: Optimal Welkin Moon Strategy</span></a></h3>
+          <div class="card-meta"><span>&#128197; 2026-05-03</span><span><span class="lang-zh">&#128065; 15.9K 阅读</span><span class="lang-en">&#128065; 15.9K views</span></span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Premium Guides ===== -->
+<section class="section" style="background: linear-gradient(180deg, transparent 0%, rgba(240,185,11,0.03) 100%);">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="section_premium_hot">精品付费攻略</h2>
+      <a href="pages/premium.html" class="section-link" data-i18n="section_premium_all">查看全部付费内容 →</a>
+    </div>
+    <div class="content-grid">
+      <!-- Premium 1 -->
+      <article class="content-card premium-card">
+        <div class="card-thumb"><span>&#128142;</span></div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag"><span class="lang-zh">王者荣耀</span><span class="lang-en">Honor of Kings</span></span><span class="badge badge-premium"><span class="lang-zh">精品</span><span class="lang-en">PREMIUM</span></span></div>
+          <h3 class="card-title"><a href="pages/article-template.html"><span class="lang-zh">2026王者荣耀全皮肤性价比终极排名：300款皮肤真实价值对比表</span><span class="lang-en">2026 Honor of Kings Ultimate Skin Value Ranking: Real Value Comparison of 300 Skins</span></a></h3>
+          <div class="card-meta"><span>&#128197; 2026-05-22</span><span><span class="lang-zh">&#128274; 会员免费</span><span class="lang-en">&#128274; Member Free</span></span></div>
+        </div>
+      </article>
+      <!-- Premium 2 -->
+      <article class="content-card premium-card">
+        <div class="card-thumb"><span>&#127776;</span></div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag"><span class="lang-zh">原神</span><span class="lang-en">Genshin Impact</span></span><span class="badge badge-premium"><span class="lang-zh">精品</span><span class="lang-en">PREMIUM</span></span></div>
+          <h3 class="card-title"><a href="pages/article-template.html"><span class="lang-zh">原神祈愿概率完整分析：真实掉落率与保底机制详解</span><span class="lang-en">Genshin Impact Complete Wish Probability Analysis: Real Drop Rates & Pity System Explained</span></a></h3>
+          <div class="card-meta"><span>&#128197; 2026-05-21</span><span><span class="lang-zh">&#128274; 会员免费</span><span class="lang-en">&#128274; Member Free</span></span></div>
+        </div>
+      </article>
+      <!-- Premium 3 -->
+      <article class="content-card premium-card">
+        <div class="card-thumb"><span>&#128176;</span></div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag"><span class="lang-zh">和平精英</span><span class="lang-en">PUBG Mobile</span></span><span class="badge badge-premium"><span class="lang-zh">精品</span><span class="lang-en">PREMIUM</span></span></div>
+          <h3 class="card-title"><a href="pages/article-template.html"><span class="lang-zh">2026和平精英全载具皮肤保值率分析：哪款车皮最值得投资</span><span class="lang-en">2026 PUBG Mobile Vehicle Skin Value Retention Analysis: Which Vehicle Skin Is Worth Investing In</span></a></h3>
+          <div class="card-meta"><span>&#128197; 2026-05-19</span><span><span class="lang-zh">&#128274; 会员免费</span><span class="lang-en">&#128274; Member Free</span></span></div>
+        </div>
+      </article>
+      <!-- Premium 4 -->
+      <article class="content-card premium-card">
+        <div class="card-thumb"><span>&#128737;</span></div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag"><span class="lang-zh">综合</span><span class="lang-en">General</span></span><span class="badge badge-premium"><span class="lang-zh">精品</span><span class="lang-en">PREMIUM</span></span></div>
+          <h3 class="card-title"><a href="pages/article-template.html"><span class="lang-zh">2026各游戏氪金最优方案对比：同等预算下哪个游戏回报率最高</span><span class="lang-en">2026 Cross-Game Spending Comparison: Which Game Gives the Best Return on Your Budget</span></a></h3>
+          <div class="card-meta"><span>&#128197; 2026-05-17</span><span><span class="lang-zh">&#128274; 会员免费</span><span class="lang-en">&#128274; Member Free</span></span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Tools Section ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="section_tools">氪金工具专区</h2>
+      <span class="section-link" data-i18n="section_tools_sub">专业工具帮你精准决策</span>
+    </div>
+    <div class="tools-grid">
+      <a href="pages/premium.html#calculator" class="tool-card">
+        <span class="tool-icon">&#128290;</span>
+        <div class="tool-info">
+          <h4 data-i18n="tool_calc">氪金计算器</h4>
+          <span data-i18n="tool_calc_desc">输入目标，一键计算最低成本</span>
+        </div>
+      </a>
+      <a href="pages/spending-guide.html#rankings" class="tool-card">
+        <span class="tool-icon">&#128200;</span>
+        <div class="tool-info">
+          <h4 data-i18n="tool_price">道具价格表</h4>
+          <span data-i18n="tool_price_desc">全服实时价格对比查询</span>
+        </div>
+      </a>
+      <a href="pages/spending-guide.html#rankings" class="tool-card">
+        <span class="tool-icon">&#127942;</span>
+        <div class="tool-info">
+          <h4 data-i18n="tool_rank">性价比排行</h4>
+          <span data-i18n="tool_rank_desc">礼包/皮肤性价比一目了然</span>
+        </div>
+      </a>
+      <a href="pages/premium.html#toolkit" class="tool-card">
+        <span class="tool-icon">&#127922;</span>
+        <div class="tool-info">
+          <h4 data-i18n="tool_sim">抽奖模拟器</h4>
+          <span data-i18n="tool_sim_desc">模拟抽取概率，避免上头</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Ad Placeholder 2 ===== -->
+<div class="container"><div class="ad-placeholder"><span class="lang-zh">&#128240; 广告位 — 支持Google AdSense / 百度联盟 (728×90)</span><span class="lang-en">&#128240; Ad Space — Google AdSense / Baidu Union Supported (728×90)</span></div></div>
+
+<!-- ===== Latest News ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="section_news">最新版本资讯</h2>
+      <a href="pages/news.html" class="section-link" data-i18n="btn_view_all">查看全部 →</a>
+    </div>
+    <div class="news-grid">
+      <article class="news-card">
+        <div class="news-card-date"><span class="day">22</span><span class="month"><span class="lang-zh">5月</span><span class="lang-en">May</span></span></div>
+        <div class="news-card-content">
+          <h3><a href="pages/news.html"><span class="lang-zh">王者荣耀S36赛季更新：新英雄+新皮肤上线，氪金优先级分析</span><span class="lang-en">Honor of Kings S36 Season Update: New Hero & Skin Release, Spending Priority Analysis</span></a></h3>
+          <p><span class="lang-zh">新赛季战令、新英雄伴生皮、限定返场，一文讲清楚该不该买、怎么买最划算。</span><span class="lang-en">New season battle pass, new hero companion skins, limited returns — a complete guide on what to buy and how to get the best value.</span></p>
+        </div>
+      </article>
+      <article class="news-card">
+        <div class="news-card-date"><span class="day">20</span><span class="month"><span class="lang-zh">5月</span><span class="lang-en">May</span></span></div>
+        <div class="news-card-content">
+          <h3><a href="pages/news.html"><span class="lang-zh">原神5.6版本更新：新角色卡池分析与抽卡建议</span><span class="lang-en">Genshin Impact 5.6 Update: New Character Banner Analysis & Pull Recommendations</span></a></h3>
+          <p><span class="lang-zh">全新五星角色强度、队伍搭配全面解析，告诉你该不该抽还是继续攒原石。</span><span class="lang-en">Complete breakdown of the new 5-star character's power level, team synergy, and whether you should pull or save.</span></p>
+        </div>
+      </article>
+      <article class="news-card">
+        <div class="news-card-date"><span class="day">18</span><span class="month"><span class="lang-zh">5月</span><span class="lang-en">May</span></span></div>
+        <div class="news-card-content">
+          <h3><a href="pages/news.html"><span class="lang-zh">和平精英新军需"暗夜猎手"上线：各档位抽齐花费预估</span><span class="lang-en">PUBG Mobile New Lucky Draw "Night Hunter" Release: Cost Estimate for Each Tier</span></a></h3>
+          <p><span class="lang-zh">全套皮肤+枪皮+载具的总花费测算，对比往期军需性价比评分。</span><span class="lang-en">Total cost estimate for full skin set + gun skins + vehicle, with value comparison to previous lucky draws.</span></p>
+        </div>
+      </article>
+      <article class="news-card">
+        <div class="news-card-date"><span class="day">15</span><span class="month"><span class="lang-zh">5月</span><span class="lang-en">May</span></span></div>
+        <div class="news-card-content">
+          <h3><a href="pages/news.html"><span class="lang-zh">紧急避坑提醒：多款游戏"限时礼包"存在消费陷阱，这些礼包千万别买</span><span class="lang-en">Urgent Warning: "Limited-Time Packs" in Multiple Games Have Spending Traps — Avoid These Packs</span></a></h3>
+          <p><span class="lang-zh">汇总近期各游戏最新礼包实际价值对比，多个看似划算的礼包实则性价比极低。</span><span class="lang-en">A roundup of recent game pack value comparisons — many seemingly good deals are actually extremely poor value.</span></p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col footer-about">
+        <h4 data-i18n="footer_about">关于本站</h4>
+        <p data-i18n="footer_about_text">氪金攻略站是国内领先的双语游戏氪金数据分析平台，致力于为全球玩家提供最专业的氪金性价比分析、礼包评测和避坑指南。</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Discord" title="Discord">D</a>
+          <a href="#" aria-label="QQ" title="QQ">Q</a>
+          <a href="#" aria-label="WeChat" title="微信">W</a>
+          <a href="#" aria-label="Twitter" title="Twitter">T</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_nav">快速导航</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="nav_home">首页</a></li>
+          <li><a href="#game-zones" data-i18n="nav_guides">游戏攻略专区</a></li>
+          <li><a href="pages/spending-guide.html" data-i18n="nav_spending">氪金性价比</a></li>
+          <li><a href="pages/premium.html" data-i18n="nav_premium">付费资源</a></li>
+          <li><a href="pages/membership.html" data-i18n="nav_membership">会员中心</a></li>
+          <li><a href="pages/news.html" data-i18n="nav_news">最新资讯</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_legal">合规页面</h4>
+        <ul>
+          <li><a href="pages/about.html" data-i18n="about_title">关于我们</a></li>
+          <li><a href="pages/contact.html" data-i18n="contact_title">联系我们</a></li>
+          <li><a href="pages/privacy.html" data-i18n="privacy_title">隐私政策</a></li>
+          <li><a href="pages/terms.html" data-i18n="terms_title">用户协议</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_community">玩家社群</h4>
+        <ul>
+          <li><a href="#"><span class="lang-zh">Discord 社区</span><span class="lang-en">Discord Community</span></a></li>
+          <li><a href="#"><span class="lang-zh">QQ 群：888888888</span><span class="lang-en">QQ Group: 888888888</span></a></li>
+          <li><a href="#"><span class="lang-zh">微信公众号</span><span class="lang-en">WeChat Official Account</span></a></li>
+          <li><a href="pages/contact.html"><span class="lang-zh">商务合作</span><span class="lang-en">Business Cooperation</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footer_copyright">© 2026 氪金攻略站 GameGuide Pro. All Rights Reserved.</span>
+      <div class="footer-bottom-links">
+        <a href="pages/privacy.html" data-i18n="privacy_title">隐私政策</a>
+        <a href="pages/terms.html" data-i18n="terms_title">用户协议</a>
+        <a href="pages/about.html" data-i18n="about_title">关于我们</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button class="back-to-top" aria-label="Back to top">&#9650;</button>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

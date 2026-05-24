@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>原神武器池氪金技巧｜降低保底成本、提升出货概率 - 氪金攻略站</title>
+  <meta name="description" content="2026年原神武器UP池完整策略：定轨系统机制详解（Epitomized Path）、保底成本数学（最坏240抽）、何时值得下武器池、各五星武器性价比排名、F2P免费武器替代品推荐（制造/活动/纪行武器）。">
+  <meta name="keywords" content="原神武器池,定轨机制,Epitomized Path,武器保底,五星武器,免费武器替代,武器性价比">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="原神武器池氪金技巧｜降低保底成本、提升出货概率">
+  <meta property="og:description" content="武器UP池完整策略：定轨机制详解、保底成本数学（最坏240抽）、免费武器替代品推荐。">
+  <meta property="og:type" content="article">
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="../../index.html" class="logo"><span class="logo-icon">G</span><span data-i18n="siteName">氪金攻略站</span></a>
+    <nav class="nav">
+      <a href="../../index.html" class="nav-link" data-i18n="nav_home">首页</a>
+      <a href="../../games/genshin-impact.html" class="nav-link">原神</a>
+      <a href="../../pages/spending-guide.html" class="nav-link" data-i18n="nav_spending">氪金性价比</a>
+      <a href="../../pages/premium.html" class="nav-link" data-i18n="nav_premium">付费资源</a>
+      <a href="../../pages/membership.html" class="nav-link" data-i18n="nav_membership">会员中心</a>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-switch" data-lang-switch><span class="globe">&#127760;</span> EN</button>
+      <button class="search-trigger" aria-label="Search">&#128269;</button>
+      <a href="../../pages/membership.html" class="btn btn-primary btn-sm" data-i18n="btn_join">加入会员</a>
+      <button class="mobile-menu-btn" aria-label="Menu" aria-expanded="false">&#9776;</button>
+    </div>
+  </div>
+</header>
+
+<div class="search-overlay"><div class="search-box"><span>&#128269;</span><input type="text" data-i18n="search" placeholder="搜索攻略..."><button class="search-close">ESC</button></div></div>
+
+<article class="article">
+
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="../../index.html"><span class="lang-zh">首页</span><span class="lang-en">Home</span></a><span class="sep">/</span>
+    <a href="../../games/genshin-impact.html"><span class="lang-zh">原神</span><span class="lang-en">Genshin Impact</span></a><span class="sep">/</span>
+    <span><span class="lang-zh">武器池策略</span><span class="lang-en">Weapon Banner Strategy</span></span>
+  </nav>
+
+  <header class="article-header">
+    <h1><span class="lang-zh">原神武器池氪金技巧｜降低保底成本、提升出货概率</span><span class="lang-en">Genshin Impact Weapon Banner Guide: Lowering Pity Cost & Improving Pull Rates</span></h1>
+    <div class="article-meta">
+      <span>&#128197; <span data-i18n="article_published">发布时间</span>: 2026-05-22</span>
+      <span>&#128260; <span data-i18n="article_updated">更新时间</span>: 2026-05-23</span>
+      <span>&#128065; 25.6K <span data-i18n="article_views">次阅读</span></span>
+    </div>
+    <div class="article-tags">
+      <a href="#"><span class="lang-zh">原神</span><span class="lang-en">Genshin</span></a><a href="#"><span class="lang-zh">武器池</span><span class="lang-en">Weapons</span></a><a href="#"><span class="lang-zh">定轨</span><span class="lang-en">Epitomized Path</span></a><a href="#"><span class="lang-zh">保底策略</span><span class="lang-en">Pity Strategy</span></a>
+    </div>
+  </header>
+
+  <div class="article-intro">
+    <strong data-i18n="article_intro">本文导读</strong>：<span class="lang-zh">原神的武器UP池（Epitome Invocation）被社区戏称为"真正的赌场"。80抽保底、定轨（Epitomized Path）系统、最坏情况240抽才能拿到指定武器——这些机制对于不了解的新手来说隐藏着巨大的原石陷阱。但如果你理解其中的数学，武器池也可以成为高效提升角色的工具。本文将用最直白的语言拆解武器池的所有机制，并给出一套"绝不亏"的下池策略。</span><span class="lang-en">Genshin Impact's weapon banner (Epitome Invocation) is jokingly called "the real casino" by the community. An 80-pull pity, the Epitomized Path system, and a worst case of 240 pulls to get your chosen weapon — for newcomers who don't understand these mechanics, the banner hides massive Primogem traps. But if you understand the math behind it, the weapon banner can also be a highly efficient way to power up your characters. This article breaks down every weapon banner mechanic in plain language and delivers a "never lose" pulling strategy.</span>
+  </div>
+
+  <div class="article-body">
+    <h2 data-i18n="sec_basics"><span class="lang-zh">一、基础科普：武器UP池的保底与定轨机制</span><span class="lang-en">1. Primer: Weapon Banner Pity & Epitomized Path Mechanics</span></h2>
+
+    <h3><span class="lang-zh">1.1 武器池保底规则</span><span class="lang-en">1.1 Weapon Banner Pity Rules</span></h3>
+    <table class="value-table">
+      <thead><tr><th><span class="lang-zh">项目</span><span class="lang-en">Item</span></th><th><span class="lang-zh">数值</span><span class="lang-en">Value</span></th><th><span class="lang-zh">说明</span><span class="lang-en">Notes</span></th></tr></thead>
+      <tbody>
+        <tr><td><span class="lang-zh">硬保底</span><span class="lang-en">Hard Pity</span></td><td><span class="lang-zh">80抽</span><span class="lang-en">80 pulls</span></td><td><span class="lang-zh">最多80抽必定出金（五星武器）</span><span class="lang-en">Guaranteed 5-star weapon within 80 pulls max</span></td></tr>
+        <tr><td><span class="lang-zh">软保底</span><span class="lang-en">Soft Pity</span></td><td><span class="lang-zh">约65抽</span><span class="lang-en">~65 pulls</span></td><td><span class="lang-zh">第65抽起出货概率大幅上升</span><span class="lang-en">Pull rates sharply increase starting at pull 65</span></td></tr>
+        <tr><td><span class="lang-zh">UP武器概率</span><span class="lang-en">Rate-Up Weapon Chance</span></td><td>75%</td><td><span class="lang-zh">出金时75%为当期2把UP武器之一（各37.5%）</span><span class="lang-en">When a 5-star drops, 75% chance it's one of the two featured weapons (37.5% each)</span></td></tr>
+        <tr><td><span class="lang-zh">歪常驻概率</span><span class="lang-en">Off-Banner Chance</span></td><td>25%</td><td><span class="lang-zh">25%为常驻池五星武器</span><span class="lang-en">25% chance it's a standard-banner 5-star weapon</span></td></tr>
+        <tr><td><span class="lang-zh">定轨保底上限</span><span class="lang-en">Epitomized Path Max</span></td><td><span class="lang-zh">240抽</span><span class="lang-en">240 pulls</span></td><td><span class="lang-zh">最坏情况下（歪常驻+2次定轨未中目标）</span><span class="lang-en">Worst case (off-banner + 2 missed Path targets)</span></td></tr>
+      </tbody>
+    </table>
+
+    <h3><span class="lang-zh">1.2 定轨系统（Epitomized Path）详解</span><span class="lang-en">1.2 Epitomized Path Explained</span></h3>
+    <p><span class="lang-zh">定轨是武器池的核心保护机制：你在抽卡前选择一把"目标武器"，每次出金如果不是你选的目标武器，就会获得1点"命定值"（Fate Point）。</span><span class="lang-en">The Epitomized Path is the weapon banner's core safety net: before pulling, you select a "target weapon." Every time you pull a 5-star that isn't your target, you earn 1 Fate Point.</span> <strong><span class="lang-zh">累计2点命定值后，下一次出金100%是你定的目标武器。</span><span class="lang-en">Once you accumulate 2 Fate Points, your next 5-star is 100% guaranteed to be your chosen weapon.</span></strong> <span class="lang-zh">最大抽数 = 2次命定值积累（最多2×80=160抽）+ 1次保底出目标（最多80抽）= </span><span class="lang-en">Maximum pulls = 2 Fate Point accumulations (max 2x80=160 pulls) + 1 guaranteed target pity (max 80 pulls) =</span> <strong><span class="lang-zh">最多240抽</span><span class="lang-en">240 pulls maximum.</span></strong></p>
+    <p><span class="lang-zh">但在现实中，240抽是极端情况。实际数学模型如下：</span><span class="lang-en">In reality, 240 pulls is the extreme tail case. The actual mathematical model:</span></p>
+    <ul>
+      <li><strong><span class="lang-zh">平均期望抽数</span><span class="lang-en">Expected average pulls</span></strong><span class="lang-zh">（拿到指定UP武器）：约</span><span class="lang-en"> (to get your chosen featured weapon): roughly</span> <strong><span class="lang-zh">140-160抽</span><span class="lang-en">140-160 pulls</span></strong></li>
+      <li><strong><span class="lang-zh">50%玩家的抽数</span><span class="lang-en">Median pulls</span></strong><span class="lang-zh">（中位数）：约</span><span class="lang-en"> (50th percentile): roughly</span> <strong><span class="lang-zh">130-150抽</span><span class="lang-en">130-150 pulls</span></strong></li>
+      <li><strong><span class="lang-zh">10%倒霉玩家的抽数</span><span class="lang-en">10% unluckiest players</span></strong><span class="lang-zh">：接近200-240抽</span><span class="lang-en">: close to 200-240 pulls</span></li>
+    </ul>
+    <p><span class="lang-zh">需要特别注意的是：</span><span class="lang-en">Crucially:</span> <strong><span class="lang-zh">命定值在每个武器池之间不继承</span><span class="lang-en">Fate Points do NOT carry over between weapon banners.</span></strong> <span class="lang-zh">也就是说，如果你在一个武器池里攒了1点命定值但没有继续抽到出目标，池子结束后你的命定值将归零。这是武器池最大的"沉没成本陷阱"——要么一次抽到底，要么之前攒的命定值全部白费。</span><span class="lang-en">In other words, if you accumulate 1 Fate Point on a weapon banner but don't continue pulling until you get your target, those Fate Points reset to zero when the banner ends. This is the weapon banner's biggest "sunk-cost trap" — either commit all the way, or watch your accumulated Fate Points go to waste.</span></p>
+
+    <h3><span class="lang-zh">1.3 五星武器 vs 四星武器 vs 精5四星 —— 实际差距有多大？</span><span class="lang-en">1.3 5-Star vs 4-Star vs R5 4-Star — How Big Is the Real Gap?</span></h3>
+    <p><span class="lang-zh">一个常见的误解是"五星武器比四星强50%以上"。实际数据是：同类型下，精1五星武器通常比精1四星武器强约</span><span class="lang-en">A common misconception is "5-star weapons are 50%+ stronger than 4-stars." The actual data: for the same weapon type, an R1 5-star is typically about</span> <strong><span class="lang-zh">15-25%</span><span class="lang-en">15-25%</span></strong> <span class="lang-zh">，比精5四星武器强约</span><span class="lang-en">stronger than an R1 4-star, and only about</span> <strong><span class="lang-zh">5-15%</span><span class="lang-en">5-15%</span></strong> <span class="lang-zh">。部分精5四星武器（如决斗之枪）在特定角色上可以与精1五星持平。换句话说，</span><span class="lang-en">stronger than an R5 4-star. Some R5 4-stars (like Deathmatch) can match R1 5-stars on specific characters. In other words,</span> <strong><span class="lang-zh">武器池的价值主要体现在装扮（武器外观匹配角色）和对特定角色的上限突破</span><span class="lang-en">the weapon banner's main value lies in aesthetics (weapon matching character appearance) and pushing specific characters to their ceiling</span></strong><span class="lang-zh">，而非"没五星武器就玩不了"。</span><span class="lang-en"> — it's not a case of "you can't play without a 5-star weapon."</span></p>
+
+    <!-- ===== Section 2: Value Tiers ===== -->
+    <h2 data-i18n="sec_value"><span class="lang-zh">二、性价比分级：什么时候武器池值得下？</span><span class="lang-en">2. Value Tier List: When Is the Weapon Banner Worth Pulling?</span></h2>
+
+    <h3><span class="lang-zh">评级标准</span><span class="lang-en">Rating Criteria</span></h3>
+    <table class="value-table">
+      <thead><tr><th><span class="lang-zh">等级</span><span class="lang-en">Tier</span></th><th><span class="lang-zh">含义</span><span class="lang-en">Meaning</span></th><th><span class="lang-zh">判断标准</span><span class="lang-en">Criteria</span></th></tr></thead>
+      <tbody>
+        <tr><td class="tier-s"><span class="lang-zh">S级</span><span class="lang-en">S-Tier</span></td><td data-i18n="tier_must_buy"><span class="lang-zh">最佳下池时机</span><span class="lang-en">Best Time to Pull</span></td><td><span class="lang-zh">两把UP武器都是你需要的，歪哪把都不亏</span><span class="lang-en">Both featured weapons are ones you need — you win no matter which drops</span></td></tr>
+        <tr><td class="tier-a"><span class="lang-zh">A级</span><span class="lang-en">A-Tier</span></td><td data-i18n="tier_recommended"><span class="lang-zh">可以下</span><span class="lang-en">Worth Pulling</span></td><td><span class="lang-zh">目标武器很强，另一把UP武器也还可以</span><span class="lang-en">Target weapon is excellent, the other featured weapon is also decent</span></td></tr>
+        <tr><td class="tier-b"><span class="lang-zh">B级</span><span class="lang-en">B-Tier</span></td><td data-i18n="tier_not_recommended"><span class="lang-zh">边缘</span><span class="lang-en">Borderline</span></td><td><span class="lang-zh">目标不错，但另一把UP武器是垃圾</span><span class="lang-en">Good target, but the other featured weapon is trash</span></td></tr>
+        <tr><td class="tier-c"><span class="lang-zh">C级</span><span class="lang-en">C-Tier</span></td><td><span class="lang-zh">不推荐</span><span class="lang-en">Not Recommended</span></td><td><span class="lang-zh">只有一把需要且另一把完全没用</span><span class="lang-en">Only need one and the other is completely useless</span></td></tr>
+        <tr><td class="tier-f"><span class="lang-zh">F级</span><span class="lang-en">F-Tier</span></td><td data-i18n="tier_never_buy"><span class="lang-zh">绝对不下</span><span class="lang-en">Never Pull</span></td><td><span class="lang-zh">两把UP武器都不需要，或原石不足以走完定轨</span><span class="lang-en">Neither featured weapon is needed, or insufficient Primogems to finish Epitomized Path</span></td></tr>
+      </tbody>
+    </table>
+
+    <div class="tier-list">
+      <div class="tier-row"><div class="tier-label s">S</div><div class="tier-items"><span class="tier-item"><span class="lang-zh">两把T0武器同池（如雾切+薙刀）</span><span class="lang-en">Two T0 weapons on the same banner (e.g. Mistsplitter + Engulfing Lightning)</span></span></div></div>
+      <div class="tier-row"><div class="tier-label a">A</div><div class="tier-items"><span class="tier-item"><span class="lang-zh">一把T0+一把泛用（如护摩+终末弓）</span><span class="lang-en">One T0 + one versatile (e.g. Homa + Elegy)</span></span></div></div>
+      <div class="tier-row"><div class="tier-label b">B</div><div class="tier-items"><span class="tier-item"><span class="lang-zh">一把T0+一把限定专武（如专武+专武同池）</span><span class="lang-en">One T0 + one niche signature (dual signature banner)</span></span></div></div>
+      <div class="tier-row"><div class="tier-label c">C</div><div class="tier-items"><span class="tier-item"><span class="lang-zh">目标T0+另一把无泛用性武器</span><span class="lang-en">T0 target + a weapon with zero flexibility</span></span></div></div>
+      <div class="tier-row"><div class="tier-label f">F</div><div class="tier-items"><span class="tier-item"><span class="lang-zh">原石不足定轨走完的盲目下池</span><span class="lang-en">Pulling without enough Primogems to finish Path</span></span><span class="tier-item"><span class="lang-zh">为四星武器去碰武器池</span><span class="lang-en">Pulling weapon banner for 4-star weapons</span></span></div></div>
+    </div>
+
+    <!-- ===== Premium Lock Section ===== -->
+    <div class="premium-lock-section">
+      <div class="premium-lock-icon">&#128274;</div>
+      <h3><span class="lang-zh">以下为会员专属内容</span><span class="lang-en">Members-Only Content Below</span></h3>
+      <p><span class="lang-zh">包含：全五星武器DPS对比数据库（精1到精5，不同角色的精确收益计算）、武器池历史数据统计分析（定轨平均花费/最坏花费分布图）、基于蒙特卡洛模拟的武器池预期成本模型、下池前原石准备计算器、武器与角色的匹配度矩阵（哪把武器最适合你的角色池）。</span><span class="lang-en">Includes: a complete 5-star weapon DPS comparison database (R1 through R5, with precise DPS gain calculations per character), historical weapon banner statistical analysis (average/worst-case Epitomized Path cost distribution charts), a Monte Carlo simulation-based weapon banner expected cost model, a pre-pull Primogem preparation calculator, and a weapon-to-character compatibility matrix (which weapon best fits your character roster).</span></p>
+      <div class="premium-lock-actions">
+        <a href="../../pages/membership.html" class="btn btn-gold btn-lg"><span class="lang-zh">开通会员 · 立即解锁</span><span class="lang-en">Join Membership · Unlock Now</span></a>
+        <a href="#" class="btn btn-outline btn-lg"><span class="lang-zh">¥9.9 单篇购买</span><span class="lang-en">¥9.9 Single Article</span></a>
+      </div>
+      <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-muted);"><span class="lang-zh">会员可免费查看全站所有付费攻略，年卡低至¥16.6/月</span><span class="lang-en">Members enjoy free access to all premium guides site-wide. Annual plan as low as ¥16.6/month.</span></p>
+    </div>
+
+    <!-- ===== Section 3: Plans ===== -->
+    <h2 data-i18n="sec_plans"><span class="lang-zh">三、档位方案：不同预算的武器获取策略</span><span class="lang-en">3. Strategy Plans: Weapon Acquisition by Budget</span></h2>
+
+    <h3 data-i18n="plan_f2p"><span class="lang-zh">零氪/微氪 —— 永远不要碰武器池</span><span class="lang-en">F2P / Low Spenders — Never Touch the Weapon Banner</span></h3>
+    <p><span class="lang-zh">对于Welkin-only或纯F2P玩家来说，武器池是</span><span class="lang-en">For Welkin-only or pure F2P players, the weapon banner is the</span> <strong><span class="lang-zh">最高风险、最低回报</span><span class="lang-en">highest-risk, lowest-reward</span></strong> <span class="lang-zh">的原石消费场景。综合计算：</span><span class="lang-en">Primogem spending scenario. The math:</span></p>
+    <ul>
+      <li><span class="lang-zh">一个0命角色的成本约为</span><span class="lang-en">Cost of one C0 character: roughly</span> <strong><span class="lang-zh">75-160抽</span><span class="lang-en">75-160 pulls</span></strong> <span class="lang-zh">（取决于是否歪）</span><span class="lang-en"> (depending on 50/50)</span></li>
+      <li><span class="lang-zh">一把指定五星武器的成本约为</span><span class="lang-en">Cost of one specific 5-star weapon: roughly</span> <strong><span class="lang-zh">140-240抽</span><span class="lang-en">140-240 pulls</span></strong></li>
+      <li><span class="lang-zh">一个0命新角色为账号增加的价值（新队伍可能、新玩法）远大于一把专武为已有角色增加的价值（约15-25%伤害提升）</span><span class="lang-en">The value a new C0 character adds to your account (new team possibilities, new playstyles) far outweighs the value a signature weapon adds to an existing character (~15-25% damage increase)</span></li>
+    </ul>
+    <p><span class="lang-zh">替代方案：</span><span class="lang-en">Alternative weapon sources:</span></p>
+    <table class="value-table">
+      <thead><tr><th><span class="lang-zh">武器来源</span><span class="lang-en">Weapon Source</span></th><th><span class="lang-zh">成本</span><span class="lang-en">Cost</span></th><th><span class="lang-zh">品质</span><span class="lang-en">Rarity</span></th><th><span class="lang-zh">适合人群</span><span class="lang-en">Best For</span></th></tr></thead>
+      <tbody>
+        <tr><td><span class="lang-zh">铁匠铺制作武器</span><span class="lang-en">Craftable Weapons</span></td><td><span class="lang-zh">免费（大世界材料）</span><span class="lang-en">Free (open-world materials)</span></td><td><span class="lang-zh">四星</span><span class="lang-en">4-Star</span></td><td><span class="lang-zh">所有人（如破魔之弓、天目影打刀）</span><span class="lang-en">Everyone (e.g. Hamayumi, Amenoma Kageuchi)</span></td></tr>
+        <tr><td><span class="lang-zh">活动赠送武器</span><span class="lang-en">Event Weapons</span></td><td><span class="lang-zh">免费（活动完成）</span><span class="lang-en">Free (event completion)</span></td><td><span class="lang-zh">四星</span><span class="lang-en">4-Star</span></td><td><span class="lang-zh">所有人（如腐殖之剑、落霞）</span><span class="lang-en">Everyone (e.g. Festering Desire, Fading Twilight)</span></td></tr>
+        <tr><td><span class="lang-zh">BP纪行武器</span><span class="lang-en">BP Weapons</span></td><td><span class="lang-zh">¥68/赛季</span><span class="lang-en">$9.99/season</span></td><td><span class="lang-zh">四星</span><span class="lang-en">4-Star</span></td><td><span class="lang-zh">Welkin+BP玩家</span><span class="lang-en">Welkin + BP players</span></td></tr>
+        <tr><td><span class="lang-zh">星辉兑换（商城）</span><span class="lang-en">Starglitter Exchange</span></td><td><span class="lang-zh">24星辉（约3-4抽）</span><span class="lang-en">24 Starglitter (~3-4 pulls)</span></td><td><span class="lang-zh">四星</span><span class="lang-en">4-Star</span></td><td><span class="lang-zh">有大量星辉的玩家</span><span class="lang-en">Players with abundant Starglitter</span></td></tr>
+        <tr><td><span class="lang-zh">常驻池歪五星</span><span class="lang-en">Standard Banner Off-Rate</span></td><td><span class="lang-zh">随缘</span><span class="lang-en">Random</span></td><td><span class="lang-zh">五星随机</span><span class="lang-en">5-Star (random)</span></td><td><span class="lang-zh">运气玩家</span><span class="lang-en">Lucky players</span></td></tr>
+      </tbody>
+    </table>
+
+    <h3 data-i18n="plan_mid"><span class="lang-zh">中氪 —— 战略性下武器池</span><span class="lang-en">Moderate Spenders — Strategic Weapon Banner Pulling</span></h3>
+    <p><span class="lang-zh">满足以下</span><span class="lang-en">Only pull on the weapon banner when</span> <strong><span class="lang-zh">所有</span><span class="lang-en">ALL</span></strong> <span class="lang-zh">条件时才下武器池：</span><span class="lang-en"> of the following conditions are met:</span></p>
+    <ol>
+      <li><span class="lang-zh">你已经有足够多的角色（至少3-4支不同配队），新角色对你的边际价值在降低。</span><span class="lang-en">You already have a sufficient character roster (at least 3-4 distinct teams) and new characters offer diminishing marginal value.</span></li>
+      <li><span class="lang-zh">两把UP武器中至少一把是T0级别且你</span><span class="lang-en">At least one of the two featured weapons is T0-tier and you</span> <strong><span class="lang-zh">确定会长期使用</span><span class="lang-en">are certain you'll use it long-term</span></strong> <span class="lang-zh">该类型武器。</span><span class="lang-en"> for that weapon type.</span></li>
+      <li><span class="lang-zh">你有足够的原石储备走完定轨（</span><span class="lang-en">You have enough Primogems in reserve to finish the Epitomized Path (</span><strong><span class="lang-zh">至少200抽=32,000原石</span><span class="lang-en">at least 200 pulls = 32,000 Primogems</span></strong><span class="lang-zh">），不依赖运气。</span><span class="lang-en">), not relying on luck.</span></li>
+      <li><span class="lang-zh">如果定轨未能第一/第二次就出货，你会接受歪出的武器。</span><span class="lang-en">If the Path doesn't hit your target on the first or second 5-star, you can live with the off-rate weapon you get.</span></li>
+    </ol>
+    <p><span class="lang-zh">如果这四个条件中任何一个不满足，跳过该武器池。</span><span class="lang-en">If any one of these four conditions isn't met, skip that weapon banner.</span></p>
+
+    <h3><span class="lang-zh">武器池"定轨弃坑"止损法</span><span class="lang-en">The "Path Abandonment" Stop-Loss Strategy</span></h3>
+    <p><span class="lang-zh">一个被低估但管用的策略：先设定一个"止损点"（例如80抽）。在80抽内出金：如果是目标武器，赚到停手；如果是另一把UP武器，接受它，不要继续追定轨。</span><span class="lang-en">An underrated but effective strategy: set a "stop-loss point" beforehand (e.g., 80 pulls). If a 5-star drops within 80 pulls: if it's your target, take the win and stop; if it's the other featured weapon, accept it and do NOT keep chasing the Path.</span> <strong><span class="lang-zh">这是防范"沉没成本陷阱"的有效策略</span><span class="lang-en">This is an effective defense against the sunk-cost trap</span></strong><span class="lang-zh">——提前设定上限，避免在追定轨的路上消耗过多的原石。大部分玩家"上头"都是在"我已经花了150抽了，再花60抽就能拿到"的心态中发生的。</span><span class="lang-en"> — set a limit in advance to avoid burning through Primogems chasing the Path. Most players "tilt" precisely because of the mindset of "I've already spent 150 pulls, just 60 more and I'll get it."</span></p>
+
+    <!-- ===== Section 4: Avoid Pitfalls ===== -->
+    <h2 data-i18n="sec_avoid"><span class="lang-zh">四、避坑总结：武器池最常见的5个错误</span><span class="lang-en">4. Pitfall Roundup: The 5 Most Common Weapon Banner Mistakes</span></h2>
+
+    <ol>
+      <li><strong><span class="lang-zh">"我角色都齐了就差武器了，必须抽"</span><span class="lang-en">"I've got all the characters, just need the weapon — must pull"</span></strong><span class="lang-zh">——先检查你是否真的需要这把武器。专武的提升在多数情况下是15-25%的伤害增幅，而你的队伍可能还有其他更高效的提升方式（如圣遗物优化、配队调整、操作练习）。240抽的价值远大于15%的伤害提升。</span><span class="lang-en"> — First check whether you truly need that weapon. A signature weapon's improvement is 15-25% more damage in most cases, and your team likely has other, more efficient upgrade paths (artifact optimization, team adjustments, mechanical practice). The value of 240 pulls far exceeds a 15% damage increase.</span></li>
+      <li><strong><span class="lang-zh">"命定值攒了1点不能浪费"</span><span class="lang-en">"I've got 1 Fate Point, can't let it go to waste"</span></strong><span class="lang-zh">——这是武器池的终极陷阱。如果你已经花了130抽攒了1点命定值但没有出货，继续追可能需要再花50-110抽。这些原石足够你去角色池拿一个0命五星。关键建议：</span><span class="lang-en"> — This is the ultimate weapon banner trap. If you've spent 130 pulls to accumulate 1 Fate Point without hitting your target, continuing could cost another 50-110 pulls. Those Primogems are enough to get a C0 5-star from the character banner. Key advice:</span> <strong><span class="lang-zh">在开始抽武器池之前就决定好是否愿意走完定轨。不要下了池子之后才"边走边看"</span><span class="lang-en">Decide whether you're willing to finish the Epitomized Path BEFORE you start pulling. Don't "play it by ear" after you've already started.</span></strong></li>
+      <li><strong><span class="lang-zh">"四星武器太丑/太弱，必须用五星"</span><span class="lang-en">"4-star weapons look bad / are too weak, I need 5-stars"</span></strong><span class="lang-zh">——外观的确是武器池的隐藏价值（武器和角色搭配的视觉效果），但你需要为"好看"支付约¥1,398-2,098的机会成本。如果外观对你的游戏体验至关重要，那就当成"买时装"的心态——原石 = 购买外观体验的货币。这不是错误，但需要你对花费有清醒的认知。</span><span class="lang-en"> — Aesthetics are indeed the hidden value of the weapon banner (the visual synergy between weapon and character), but you're paying roughly $200-300 in opportunity cost for "looking good." If aesthetics are crucial to your experience, treat it with a "buying a skin" mindset — Primogems = currency for purchasing visual experience. This isn't a mistake per se, but you need to be crystal clear about what you're paying for.</span></li>
+      <li><strong><span class="lang-zh">"这把武器泛用性高，什么角色都能用"</span><span class="lang-en">"This weapon is versatile, any character can use it"</span></strong><span class="lang-zh">——所谓的"泛用武器"（如天空系列）实际上对每个特定角色的提升都不如专武。一把泛用武器可能在10个角色上都能用，但对每个角色只提升10-15%，而一把专武对一个角色提升25-30%。如果你不玩那个专武对应角色，泛用武器仍然不能让你获得应有的回报。</span><span class="lang-en"> — So-called "versatile weapons" (like the Skyward series) actually underperform compared to signature weapons on every specific character. A versatile weapon may be usable on 10 characters but only provides a 10-15% boost on each, while a signature weapon gives 25-30% on its intended user. If you don't play that signature weapon's character, the versatile weapon still won't give you the returns you're hoping for.</span></li>
+      <li><strong><span class="lang-zh">"武器池保底和角色池一样跨池继承"</span><span class="lang-en">"Weapon banner pity carries over just like the character banner"</span></strong><span class="lang-zh">——武器池的保底计数</span><span class="lang-en"> — Weapon banner pity count</span> <strong><span class="lang-zh">跨池继承</span><span class="lang-en">DOES carry over across banners</span></strong><span class="lang-zh">，但</span><span class="lang-en">, but</span> <strong><span class="lang-zh">命定值（定轨进度）不继承</span><span class="lang-en">Fate Points (Path progress) do NOT carry over</span></strong><span class="lang-zh">。这两者需要严格区分：你在武器池A抽了50抽没出金，到武器池B时保底计数从51开始（继承）；但你在武器池A攒的1点命定值在武器池B会归零（不继承）。混淆这两者是大量玩家的认知盲区。</span><span class="lang-en">. These two must be strictly distinguished: if you did 50 pulls on Weapon Banner A without a 5-star, on Weapon Banner B your pity counter starts at 51 (carries over); but if you earned 1 Fate Point on Weapon Banner A, it resets to zero on Weapon Banner B (does NOT carry over). Confusing these two concepts is a blind spot for a huge number of players.</span></li>
+    </ol>
+
+    <div class="cta-box">
+      <h3><span class="lang-zh">&#128161; 想要完整数据？</span><span class="lang-en">&#128161; Want the Full Data?</span></h3>
+      <p><span class="lang-zh">本文为免费预览版。完整版包含全五星武器各角色精1-精5 DPS数据库、武器池蒙特卡洛模拟成本分析、下池前原石准备计算器、以及各免费武器的获取与精炼最优路径。会员免费查看全部内容。</span><span class="lang-en">This article is a free preview. The full version includes an R1-R5 DPS database for all 5-star weapons per character, Monte Carlo cost analysis for the weapon banner, a pre-pull Primogem preparation calculator, and optimal acquisition and refinement paths for every free weapon. Members get free access to all content.</span></p>
+      <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+        <a href="../../pages/membership.html" class="btn btn-gold btn-lg"><span class="lang-zh">开通会员 · 全部解锁</span><span class="lang-en">Join Membership · Unlock All</span></a>
+        <a href="#" class="btn btn-outline btn-lg"><span class="lang-zh">¥9.9 购买本文</span><span class="lang-en">¥9.9 Purchase Article</span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="share-bar">
+    <span><span class="lang-zh">分享:</span><span class="lang-en">Share:</span></span>
+    <button class="share-btn" title="Copy link">&#128279;</button>
+    <button class="share-btn" title="Share to WeChat">W</button>
+    <button class="share-btn" title="Share to Twitter">T</button>
+  </div>
+
+  <section class="related-articles">
+    <h3 data-i18n="article_related">相关推荐</h3>
+    <div class="content-grid">
+      <article class="content-card">
+        <div class="card-thumb"><span>&#128176;</span></div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag"><span class="lang-zh">原神</span><span class="lang-en">Genshin</span></span></div>
+          <h3 class="card-title"><a href="1-best-spending.html"><span class="lang-zh">原神2026氪金性价比攻略｜原石、纠缠之缘最省钱获取方式</span><span class="lang-en">Genshin Impact 2026 Spending Guide: Most Efficient Ways to Get Primogems & Intertwined Fates</span></a></h3>
+          <div class="card-meta"><span>&#128197; 2026-05-20</span><span>&#128065; 55.2K</span></div>
+        </div>
+      </article>
+      <article class="content-card">
+        <div class="card-thumb"><span>&#128481;</span></div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag"><span class="lang-zh">原神</span><span class="lang-en">Genshin</span></span></div>
+          <h3 class="card-title"><a href="3-character-draw.html"><span class="lang-zh">原神角色抽卡避坑指南｜刚需角色与性价比角色盘点</span><span class="lang-en">Genshin Character Pull Guide: Must-Pull Characters & Value Picks</span></a></h3>
+          <div class="card-meta"><span>&#128197; 2026-05-21</span><span>&#128065; 48.3K</span></div>
+        </div>
+      </article>
+      <article class="content-card">
+        <div class="card-thumb"><span>&#128260;</span></div>
+        <div class="card-body">
+          <div class="card-tags"><span class="card-tag"><span class="lang-zh">原神</span><span class="lang-en">Genshin</span></span></div>
+          <h3 class="card-title"><a href="2-pass-comparison.html"><span class="lang-zh">原神月卡、纪行、礼包对比｜微氪玩家最优氪金组合</span><span class="lang-en">Genshin Welkin vs Battle Pass vs Bundles: Best Low-Spender Combo</span></a></h3>
+          <div class="card-meta"><span>&#128197; 2026-05-20</span><span>&#128065; 32.7K</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <p style="margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 0.85rem; color: var(--text-muted);" data-i18n="article_disclaimer">本文由氪金攻略站原创，未经授权禁止转载。数据来源为游戏内实际测试与官方公告，仅供参考。</p>
+</article>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col footer-about"><h4 data-i18n="footer_about">关于本站</h4><p data-i18n="footer_about_text">氪金攻略站是国内领先的双语游戏氪金数据分析平台。</p></div>
+      <div class="footer-col"><h4 data-i18n="footer_nav">快速导航</h4><ul><li><a href="../../index.html" data-i18n="nav_home">首页</a></li><li><a href="../../pages/spending-guide.html" data-i18n="nav_spending">氪金性价比</a></li><li><a href="../../pages/premium.html" data-i18n="nav_premium">付费资源</a></li><li><a href="../../pages/membership.html" data-i18n="nav_membership">会员中心</a></li></ul></div>
+      <div class="footer-col"><h4 data-i18n="footer_legal">合规页面</h4><ul><li><a href="../../pages/about.html" data-i18n="about_title">关于我们</a></li><li><a href="../../pages/contact.html" data-i18n="contact_title">联系我们</a></li><li><a href="../../pages/privacy.html" data-i18n="privacy_title">隐私政策</a></li><li><a href="../../pages/terms.html" data-i18n="terms_title">用户协议</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span data-i18n="footer_copyright">&copy; 2026 GameGuide Pro. All Rights Reserved.</span></div>
+  </div>
+</footer>
+
+<button class="back-to-top">&#9650;</button>
+<script src="../../js/i18n.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>
