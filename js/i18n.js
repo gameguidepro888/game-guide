@@ -482,6 +482,9 @@ function t(key) {
 function applyTranslations(lang) {
   localStorage.setItem('gg-lang', lang);
   document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+  // Toggle body class for bilingual content visibility
+  document.body.classList.remove('lang-zh', 'lang-en');
+  document.body.classList.add('lang-' + lang);
 
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');

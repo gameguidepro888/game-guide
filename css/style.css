@@ -943,6 +943,10 @@ input, textarea, select {
 }
 .share-btn:hover { background: var(--primary); color: var(--text-inverse); }
 
+/* === Bilingual Content Visibility === */
+body.lang-zh .lang-en { display: none !important; }
+body.lang-en .lang-zh { display: none !important; }
+
 /* === Print Styles === */
 @media print {
   .header, .footer, .back-to-top, .ad-placeholder, .share-bar { display: none !important; }
